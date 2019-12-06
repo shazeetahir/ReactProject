@@ -3,7 +3,7 @@ import {Schema, model} from 'mongoose';
 const TypeUserSchema = new Schema({
     typeuser: {
         type: String,
-        required: true
+        // required: true
     },
 });
 

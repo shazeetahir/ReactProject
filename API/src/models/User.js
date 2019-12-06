@@ -19,7 +19,7 @@ const UserSchema = new Schema({
         type: Schema.Types.ObjectId,
         ref:'TypeUser',
         required: true
-    },
+    }
 });
 
 const User = model('User', UserSchema);
