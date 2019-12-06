@@ -1,0 +1,7 @@
+Mon projet consiste a faire une site web pour les recipes. 
+
+On peut créer un compte utilisateur. Un utilisateur peut créer des recipes, voir ses recipes, modifier ou supprimer ses recipes et aussi voir les recipes de tout le monde. Il peut aussi a n'importe quel moment modifier ses coordonnées apart son email.
+
+Par défaut je suis l'administrateur, je peux faire tout ce qu'un utilisateur peut faire, avec un possibilité de voir la liste de tout les utilisateurs avec leurs coordonnées ainsi que le mot de passe. Pour n'importe quel utilisateur je peux changer ses coordonnés ou son mot de passe mais pas son adresse mail. Je peux aussi supprimer son compte.
+
+P.S mon base de données s'appelle recipes.

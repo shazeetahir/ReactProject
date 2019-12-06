@@ -1,0 +1,29 @@
+/* 1 */
+{
+    "_id" : ObjectId("5de7c2642e98993322b1bcb8"),
+    "name" : "Shahzaib Tahir",
+    "email" : "shahzaib7862@gmail.com",
+    "password" : "admin",
+    "type" : ObjectId("5de7ca692757a534ff848347"),
+    "__v" : 0
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("5dea89c349a511438df2e0c9"),
+    "name" : "User",
+    "email" : "user@gmail.com",
+    "password" : "user",
+    "type" : ObjectId("5de7ca6e2757a534ff848348"),
+    "__v" : 0
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("5dea8a1149a511438df2e0cd"),
+    "name" : "testy",
+    "email" : "test@gmail.com",
+    "password" : "test",
+    "type" : ObjectId("5de7ca6e2757a534ff848348"),
+    "__v" : 0
+}

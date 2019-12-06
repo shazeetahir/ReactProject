@@ -1,0 +1,13 @@
+/* 1 */
+{
+    "_id" : ObjectId("5de7ca692757a534ff848347"),
+    "typeuser" : "admin",
+    "__v" : 0
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("5de7ca6e2757a534ff848348"),
+    "typeuser" : "user",
+    "__v" : 0
+}

@@ -1,0 +1,7 @@
+Au debut j'ai eu problème a comprendre l'architecture de react js (ayant jamais travailler sur reactJS). Mais grace aux tutoriels sur internet et les explications de mes camarades et mon professor j'ai pu apprendre vite.
+
+Au debut j'ai eu mal a comprendre des errors et des bugs.
+
+J'ai eu plusieurs types d'error surtout les errors 404 et 500. Ces error m'ont beaucoup perturbé au début.
+
+J'ai aussi eu des problèmes avec la connexion utilisateur mais cela était simple une fois j'ai compris les étapes expliqué par mon professor.

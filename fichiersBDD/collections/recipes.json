@@ -1,0 +1,62 @@
+/* 1 */
+{
+    "_id" : ObjectId("5dea89d549a511438df2e0ca"),
+    "idUser" : ObjectId("5dea89c349a511438df2e0c9"),
+    "title" : "Biryani",
+    "content" : "This is how you can make a biryani",
+    "__v" : 0
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("5dea89e349a511438df2e0cb"),
+    "idUser" : ObjectId("5dea89c349a511438df2e0c9"),
+    "title" : "Tiramisu",
+    "content" : "This is how you should make tiramisu",
+    "__v" : 0
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("5dea89f749a511438df2e0cc"),
+    "idUser" : ObjectId("5dea89c349a511438df2e0c9"),
+    "title" : "Chocolate",
+    "content" : "This is how you can make chocolate",
+    "__v" : 0
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("5dea8a2949a511438df2e0ce"),
+    "idUser" : ObjectId("5dea8a1149a511438df2e0cd"),
+    "title" : "Test recipe",
+    "content" : "this is how you make a test recipes",
+    "__v" : 0
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("5dea8a5149a511438df2e0cf"),
+    "idUser" : ObjectId("5dea8a1149a511438df2e0cd"),
+    "title" : "Test Dish",
+    "content" : "This is a test dish",
+    "__v" : 0
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("5deaa1384f3d674609a9ddad"),
+    "idUser" : ObjectId("5de7c2642e98993322b1bcb8"),
+    "title" : "Admin recipe!j",
+    "content" : "This is created by admin",
+    "__v" : 0
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("5deac09aa8df7651233b649d"),
+    "idUser" : ObjectId("5dea8a1149a511438df2e0cd"),
+    "title" : "Huhu",
+    "content" : "this is huhu",
+    "__v" : 0
+}
