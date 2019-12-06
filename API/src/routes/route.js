@@ -21,6 +21,9 @@ router.get('/recipes/:id', RecipesController.list);
  
 router.delete('/recipes/:id', RecipesController.delete);
 
+router.get('/users/:id', UserController.list);
+router.delete('/userDelete/:id', UserController.delete);
+
 
 router.put('/recipes', RecipesController.update);
 

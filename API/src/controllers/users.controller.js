@@ -1,23 +1,68 @@
 import User from '../models/User';
 
 class UserController{
-    static async list(req, res){
+    // static async list(req, res){
 
+    //     let status = 200;
+    //     let body = {};
+
+    //     /*
+    //         Plusieurs méthodes :
+    //         Post.find() //Lister tous les posts
+    //         Post.findOne({slug: "mon-titre"})
+    //         Post.findByID("123456")
+    //         ...
+    //     */
+
+    //     try{
+    //         let users = await User.find();
+    //         body = {users, 'message': 'List users'};
+    //         //console.log(users);
+    //     }
+
+    //     catch (error){
+    //         status = 500;
+    //         body = {'message': error.message};
+    //     }
+
+    //     return res.status(status).json(body);
+
+    // }
+
+    //Delete function
+    static async delete(req, res){
         let status = 200;
         let body = {};
 
-        /*
-            Plusieurs méthodes :
-            Post.find() //Lister tous les posts
-            Post.findOne({slug: "mon-titre"})
-            Post.findByID("123456")
-            ...
-        */
+
+        try {
+            let id = req.params.id;
+
+            let user = await User.findById(id);
+            user.delete();
+            body = {'message': 'User Deleted'};
+        } 
+        catch (error) {
+            status = 500;
+            body = {'message': error.message};
+        }
+        return res.status(status).json(body);
+    }
+
+
+    static async list(req, res){
+        let status = 200;
+        let body = {}; 
 
         try{
-            let users = await User.find();
-            body = {users, 'message': 'List users'};
-            //console.log(users);
+            if(req.params.id !== undefined){
+                let users = await User.find({_id: req.params.id});
+                body = {users, 'message': 'List User'};
+            }
+            else{
+                let users = await User.find();
+                body = {users, 'message': 'List users'};
+            }
         }
 
         catch (error){
@@ -26,8 +71,11 @@ class UserController{
         }
 
         return res.status(status).json(body);
-
     }
+
+
+
+
 
     static async create(req, res){
         let status = 200;
